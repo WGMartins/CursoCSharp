@@ -3,6 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject></StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fundamentos\OperadoresRelacionais.cs~RF11a039b3.TMP" />
+  </ItemGroup>
 
 </Project>
