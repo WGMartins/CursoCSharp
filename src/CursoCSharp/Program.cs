@@ -1,7 +1,6 @@
 ﻿using CursoCSharp.Fundamentos;
 using System;
 using System.Collections.Generic;
-
 namespace CursoCSharp
 {
     class Program
