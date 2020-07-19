@@ -5,9 +5,9 @@ Repositório do curso "C# Curso Completo: Do Básico ao Avançado!"
 - Seção 1 : Introdução
 - Seção 2 : Configuração de Ambiente
 - Seção 3 : Fundamentos
+- Seção 4 : Estruturas de Controle
 
 # EM PROGRESSO
-- Seção 4 : Estruturas de Controle
 
 # PRÓXIMOS PASSOS
 - Seção 5 : Classes & Métodos
