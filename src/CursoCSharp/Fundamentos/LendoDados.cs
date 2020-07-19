@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Dynamic;
 using System.Globalization;
-using System.Text;
 
 namespace CursoCSharp.Fundamentos
 {

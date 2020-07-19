@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CursoCSharp.Fundamentos
 {
@@ -9,7 +7,7 @@ namespace CursoCSharp.Fundamentos
         public static void Executar()
         {
             // area da circunferencia
-            double raio = 4.5;
+            double raio;
             const double PI = 3.14;
 
             raio = 5.5;
