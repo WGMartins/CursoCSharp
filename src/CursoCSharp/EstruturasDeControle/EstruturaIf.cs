@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CursoCSharp.EstruturasDeControle
 {
@@ -8,7 +6,7 @@ namespace CursoCSharp.EstruturasDeControle
     {
         public static void Executar()
         {
-            bool bomComportamento = false;
+            bool bomComportamento;
             string entrada;
 
             Console.Write("Digite a nota do aluno: ");

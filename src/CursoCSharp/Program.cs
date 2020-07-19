@@ -1,5 +1,5 @@
-﻿using CursoCSharp.Fundamentos;
-using CursoCSharp.EstruturasDeControle;
+﻿using CursoCSharp.EstruturasDeControle;
+using CursoCSharp.Fundamentos;
 using System;
 using System.Collections.Generic;
 
@@ -7,7 +7,7 @@ namespace CursoCSharp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>()
             {
@@ -30,6 +30,15 @@ namespace CursoCSharp
                 
                 // Estruturas de Controle
                 {"Estrutura If - Estruturas de Controle", EstruturaIf.Executar },
+                {"Estrutura If/Else  - Estruturas de Controle", EstruturaIfElse.Executar },
+                {"Estrutura If/Else/If  - Estruturas de Controle", EstruturaIfElseIf.Executar },
+                {"Estrutura Switch  - Estruturas de Controle", EstruturaSwitch.Executar },
+                {"Estrutura While  - Estruturas de Controle", EstruturaWhile.Executar },
+                {"Estrutura Do While  - Estruturas de Controle", EstruturaDoWhile.Executar },
+                {"Estrutura For  - Estruturas de Controle", EstruturaFor.Executar },
+                {"Estrutura Foreach  - Estruturas de Controle", EstruturaForeach.Executar },
+                {"Usando Break  - Estruturas de Controle", UsandoBreak.Executar },
+                {"Usando Continue  - Estruturas de Controle", UsandoContinue.Executar },
             });
 
             central.SelecionarEExecutar();

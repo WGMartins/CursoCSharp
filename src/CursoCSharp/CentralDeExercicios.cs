@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace CursoCSharp
 {
     public class CentralDeExercicios
     {
-        Dictionary<string, Action> Exercicios;
+        private readonly Dictionary<string, Action> Exercicios;
 
         public CentralDeExercicios(Dictionary<string, Action> exercicios)
         {
@@ -18,7 +17,7 @@ namespace CursoCSharp
         {
             int i = 1;
 
-            foreach(var exercicio in Exercicios)
+            foreach (var exercicio in Exercicios)
             {
                 Console.WriteLine("{0}) {1}", i, exercicio.Key);
                 i++;
@@ -46,7 +45,7 @@ namespace CursoCSharp
             {
                 executar();
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.BackgroundColor = ConsoleColor.Red;
                 Console.ForegroundColor = ConsoleColor.White;
