@@ -7,11 +7,11 @@ Repositório do curso "C# Curso Completo: Do Básico ao Avançado!"
 - Seção 3 : Fundamentos
 - Seção 4 : Estruturas de Controle
 - Seção 5 : Classes & Métodos
+- Seção 6 : Coleções
 
 # EM PROGRESSO
 
 # PRÓXIMOS PASSOS
-- Seção 6 : Coleções
 - Seção 7 : Orientação a Objetos
 - Seção 8 : Métodos e Funções
 - Seção 9 : Exceções
