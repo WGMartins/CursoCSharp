@@ -10,4 +10,8 @@
     <None Remove="Fundamentos\OperadoresRelacionais.cs~RF11a039b3.TMP" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Encapsulamento\Encapsulamento.csproj" />
+  </ItemGroup>
+
 </Project>
