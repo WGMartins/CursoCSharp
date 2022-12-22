@@ -1,7 +1,10 @@
 ﻿using CursoCSharp.ClassesEMetodos;
-using CursoCSharp.EstruturasDeControle;
-using CursoCSharp.Fundamentos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.EstruturasDeControle;
+using CursoCSharp.Excecoes;
+using CursoCSharp.Fundamentos;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.OO;
 using System;
 using System.Collections.Generic;
 
@@ -70,6 +73,27 @@ namespace CursoCSharp
                 {"Igualdade - Coleções", Igualdade.Executar },
                 {"Stack - Coleções", ColecoesStack.Executar },
                 {"Dictionary - Coleções", ColecoesDictionary.Executar },
+
+                // OO
+                {"Herança - OO", Heranca.Executar },
+                {"Construtor This - OO", ConstrutorThis.Executar },
+                {"Encapsulamento - OO", OO.Encapsulamento.Executar },
+                {"Polimorfismo - OO", Polimorfismo.Executar },
+                {"Abstract - OO", Abstract.Executar },
+                {"Interface - OO", Interface.Executar },
+                {"Sealed - OO", Sealed.Executar },
+                
+                // Métodos & Funçoes
+                {"Exemplo Lambda - Métodos & Funçoes", ExemploLambda.Executar },
+                {"Lambdas Como Delegates - Métodos & Funçoes", LambdasDelegate.Executar },
+                {"Usando Delegates - Métodos & Funçoes", UsandoDelegates.Executar },
+                {"Delegates Como Funções Anonimas - Métodos & Funçoes", DelegateFunAnonima.Executar },
+                {"Delegates Como Parâmetros - Métodos & Funçoes", DelegatesComoParametros.Executar },
+                {"Métodos de Extensão - Métodos & Funçoes", MetodosDeExtensao.Executar },
+
+                // Exceções
+                {"Primeira Exceção - Exceções", PrimeiraExcecao.Executar },
+                {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar },
             });
 
             central.SelecionarEExecutar();
