@@ -11,10 +11,10 @@ Repositório do curso "C# Curso Completo: Do Básico ao Avançado!"
 - Seção 7 : Orientação a Objetos
 - Seção 8 : Métodos e Funções
 - Seção 9 : Exceções
+- Seção 10 : Explorando API
+- Seção 11 : Tópicos Avançados
+- Seção 12 : Conclusão
 
 # EM PROGRESSO
 
 # PRÓXIMOS PASSOS
-- Seção 10 : Explorando API
-- Seção 11 : Tópicos Avançados
-- Seção 12 : Conclusão
